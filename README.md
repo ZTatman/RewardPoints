@@ -1,5 +1,19 @@
 # RewardPoints
 This program calculates the amount of points a customer is rewarded for every dollar above two certain purchase amount (dollars) thresholds.  
+# Installation Prerequisites  
+* **Java SDK**  
+   In order to write and run a Java program you need to install a Java Software Development Kit, or Java SDK.  
+   You can download a Java SDK for your choice OS at (https://www.oracle.com/java/technologies/javase-downloads.html)  
+* **Text Editor or IDE**  
+   [Atom](https://atom.io/)  
+   [Sublime Text](https://www.sublimetext.com/)  
+   [Visual Studio Code](https://visualstudio.microsoft.com/)  
+# How to Run Program  
+* **Windows/Linux**  
+1. ```git clone https://github.com/ZTatman/RewardPoints.git```
+2. ```cd RewardPoints```
+3. ```javac RewardsPoints.java```
+4. ```java RewardsPoints < yourInputFile.in```
 # What Does My Program Do?  
 For each case my program will create a customer, randomly generate purchases given a number and a purchase limit, display a customers entire purchase history, calculates the points rewarded for every purchase, and displays the total sum of points rewarded to a customer within a range of months in a customers purchase history.
 # Problem Statement  
@@ -207,5 +221,3 @@ March September
  3. ```monthFrom``` and ```monthTo``` must be months that were listed in the cases. To create a month with o purchase history you must specify it by typing ```0 month```  
  4. ```monthFrom``` and ```monthTo``` range selectors cannot be used to wrap around a year (haven't figured how to implement this yet). For instance, in the example above ```November March``` is invalid.  
  5. There are probably more, but I can't think of the rest right now (will updated as needed)  
- ## Steps to Run Program  
- 
